@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block title %} dog_detail {{ dog.name }} {% endblock %} {% block content %}
+<h2>{{ dog.name }}</h2>
+<div>
+    <h6>About</h6>
+</div>
+<div>Breed: {{dog.breed}}</div>
+<div>{{dog.photo}}</div>
+<div>{{ dog.description }}</div>
+{% endblock %}
